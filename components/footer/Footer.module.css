@@ -1,0 +1,9 @@
+.footer {
+  border-top: 0.5px solid #8a8a8a;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 6%;
+}
+.footerUl {
+  display: flex;
+}
