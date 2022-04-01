@@ -63,32 +63,19 @@ const Hero = () => {
             Metaverse Is Here
           </h2>
                   <p className="mt-4 lg:mt-6 text-white">
-            From 
+            
             <span className="text-white font-semibold">
               
             </span>
                       <span className="text-gray-500 text-white">
               {" "}
-              {filteredData.availableCards} of {filteredData.totalCards}{" "}
-              available
+              Take a step with us into the metaverse.{" "}
+              
             </span>
           </p>
           <div>
           
-                      <p className="text-white mt-2">
-              Size:{" "}
-                          <span className=" font-semibold text-white">
-                {" "}
-                {filteredData.size}
-              </span>
-            </p>
-                      <p className="text-white mt-2">
-              Created:{" "}
-                          <span className=" font-semibold text-white">
-                {" "}
-                {filteredData.dateCreated}
-              </span>
-            </p>
+                     
           </div>
           <div className="flex mt-6 w-full justify-around">
             <h5
