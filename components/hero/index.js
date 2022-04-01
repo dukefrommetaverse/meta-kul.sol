@@ -113,14 +113,15 @@ const Hero = () => {
             </p>
           )}
                   <div className="w-11/12 flex flex-col justify-center lg:w-full lg:justify-start sm:flex-row">
-                      <a className="w-full" href="#roadmap">
+                      <a className="w-full mr-6" href="#roadmap">
                      
                       <ButtonCommon 
               isGreen={true}
               text={`ROADMAP`}
                           /> </a>
-
-                      <ButtonCommon className="ml-2" text="PRE-SALE SOON" />
+                      <a className="w-full" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/metakul_/">
+                          <ButtonCommon className="ml-2" text="Join Us Now" />
+                      </a>
           </div>
         </div>
       </div>

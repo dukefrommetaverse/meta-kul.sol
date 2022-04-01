@@ -13,13 +13,11 @@ function Footer() {
       </div>
       <></>
       <div>
-        <ul className={`flex space-x-8  ${footerStyles.footerUl}`}>
+              <ul className={` text-white flex space-x-8  ${footerStyles.footerUl}`}>
           <li>
-            <Link href="#faq">FAQ</Link>
+                      <Link rel="noopener noreferrer" target="_blank" href="https://discord.gg/3MwNU73G7M">Join discord</Link>
           </li>
-                  <li>
-                      <Link className="text-white" href="#">Privacy</Link>
-          </li>
+               
         </ul>
       </div>
     </div>

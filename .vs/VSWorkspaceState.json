@@ -2,11 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\components",
+    "\\components\\buttonCommon",
     "\\components\\data",
-    "\\components\\hero",
-    "\\components\\homeScreenCard",
-    "\\components\\layout"
+    "\\components\\footer",
+    "\\components\\navbar",
+    "\\components\\seo",
+    "\\pages",
+    "\\public\\images",
+    "\\styles"
   ],
-  "SelectedNode": "\\tailwind.config.js",
+  "SelectedNode": "\\components\\hero\\index.js",
   "PreviewInSolutionExplorer": false
 }
