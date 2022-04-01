@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\data",
+    "\\components\\hero",
+    "\\components\\homeScreenCard",
+    "\\components\\layout"
+  ],
+  "SelectedNode": "\\tailwind.config.js",
+  "PreviewInSolutionExplorer": false
+}

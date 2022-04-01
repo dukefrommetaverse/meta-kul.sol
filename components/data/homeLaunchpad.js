@@ -1,22 +1,36 @@
 export const homeLaunchpadData = [
   {
     stepNumber: 1,
-    heading: "Apply for Launchpad",
-    para: "Get in touch if you have an idea, or artwork and want to showcase it to the world. We want to help you get launched.",
+    heading: "1st Stage",
+        para1: `1.Introducing website, Twitter and Instagram.`,
+        para2: `2.Building Community and raising awareness of Blockchain,WEB3.0,NFT and Crypto currencies.`,
+        para3: `3.Contests to win NFT, Cash prizes, etc. (Discord Server).`,
+        para4: `4.Sneak-peak of NFT art and distribution of our crypto to first 100 whitelist users.`,
+
   },
   {
     stepNumber: 2,
-    heading: "Customize your launch",
-    para: "Add your work and tell us how, and when you want to sell your NFTs - we’ll help set up the collection",
+      heading: "2nd Stage",
+      para1: `1.Introduce $KUL ,our utility token.`,
+      para2: `2.Distribution of $KUL to whitelisted users for  discount on NFT purchase.`,
+      para3: `3.Minting will be open for presale.`,
+      para4: `4.NFT holders party and utility discloser.`,
   },
   {
     stepNumber: 3,
-    heading: "Mint with Magic Eden",
-    para: "Mint and host the launch on Magic Eden, using our custom tools",
-  },
-  {
-    stepNumber: 4,
-    heading: "Use our marketplace",
-    para: "Provide your community with instant, verified access to the Magic Eden marketplace.",
-  },
+    heading: "3rd Stage",
+      para1: `1.Sneak-peak of our Metaverse METAKUL.`,
+      para2: `2.Distribution of $KUL to the people staking METAKUL NFT.`,
+      para3: `3.Introducing breeding of the NFT's, and providing Serum to breed METAKUL.`,
+      para4: `4.All holders will have direct invitation to our Meta-Festivals.`,
+    },
+    {
+        stepNumber: 4,
+        heading: "4th Stage",
+        para1: `1.Sneak-peak of our Metaverse METAKUL.`,
+        para2: `2.Distribution of $KUL to the people staking METAKUL NFT.`,
+        para3: `3.Introducing breeding of the NFT's, and providing Serum to breed METAKUL.`,
+        para4: `4.All holders will have direct invitation to our Meta-Festivals.`,
+    },
+
 ];

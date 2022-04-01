@@ -14,9 +14,7 @@ export default function Home() {
     <div>
       <SEO />
       <Hero />
-      {allCardsData.map(({ heading, rowData }, i) => (
-        <HomeScreenCard heading={heading} data={rowData} key={i} />
-      ))}
+     
       <HomeSectionLaunchPad />
     </div>
   );

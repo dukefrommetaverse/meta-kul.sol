@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 
 import ButtonCommon from "../buttonCommon";
 import { imagesData } from "../data/imagesData";
@@ -15,7 +15,7 @@ const Hero = () => {
       (value) => value.id === isOpenAllData
     );
     setFilteredData(
-      filteredDataArray === undefined ? imagesData[0] : filteredDataArray
+      filteredDataArray === undefined ? imagesData[1] : filteredDataArray
     );
   };
   useEffect(() => {
@@ -27,14 +27,15 @@ const Hero = () => {
   return (
     <div className="my-12">
       <div className="text-center">
-        <h5 className="text-md text-gray-500 my-2 md:text-lg">
-          Buy, Sell and Discover Rare Digital Items
-        </h5>
-        <h1 className="text-3xl font-bold md:text-4xl">
-          The Innovative Solana Marketplace
+              <h1 className="text-3xl font-bold md:text-4xl  text-white">
+        
+          Learn and Earn Rare NFT in Metaverse
         </h1>
+              <h5 className="text-md text-gray-500 my-2 md:text-lg">
+          The Innovative Solana Metaverse Reforming Vedic Education via blockchain.
+        </h5>
       </div>
-      <div className="grid mt-6 grid-cols-1 lg:grid-cols-3">
+      <div className="grid mt-3 grid-cols-1 lg:grid-cols-3">
         <div className="grid grid-cols-3 gap-1 border-r-4 px-6 lg:pl-6 sm:pr-12">
           {imagesData.map(({ imgSrc, altText, id }) => (
             <div
@@ -58,84 +59,81 @@ const Hero = () => {
           />
         </div>
         <div className="flex justify-center items-center flex-col mt-8 px-4 lg:pr-12 lg:px-12 sm:mt-4 lg:items-start">
-          <h2 className="text-2xl font-bold px-4 lg:text-3xl lg:px-0">
-            {filteredData.heading}
+                  <h2 className="text-2xl font-bold px-4 lg:text-3xl lg:px-0 text-white">
+            Metaverse Is Here
           </h2>
-          <p className="mt-4 lg:mt-6">
-            From{" "}
-            <span className="text-black font-semibold">
-              {filteredData.price} SOL ·{" "}
+                  <p className="mt-4 lg:mt-6 text-white">
+            From 
+            <span className="text-white font-semibold">
+              
             </span>
-            <span className="text-gray-500">
+                      <span className="text-gray-500 text-white">
               {" "}
               {filteredData.availableCards} of {filteredData.totalCards}{" "}
               available
             </span>
           </p>
           <div>
-            <p className="text-gray-500 mt-5">
-              Artiste:{" "}
-              <span className="text-black font-semibold">
-                {" "}
-                {filteredData.artiste}
-              </span>
-            </p>
-            <p className="text-gray-500 mt-2">
+          
+                      <p className="text-white mt-2">
               Size:{" "}
-              <span className="text-black font-semibold">
+                          <span className=" font-semibold text-white">
                 {" "}
                 {filteredData.size}
               </span>
             </p>
-            <p className="text-gray-500 mt-2">
+                      <p className="text-white mt-2">
               Created:{" "}
-              <span className="text-black font-semibold">
+                          <span className=" font-semibold text-white">
                 {" "}
                 {filteredData.dateCreated}
               </span>
             </p>
           </div>
           <div className="flex mt-6 w-full justify-around">
-            <p
+            <h5
               onClick={() => handleOpenDetails(1)}
-              className="pb-4"
+                          className="pb-4 text-white"
               style={{
-                borderBottom: isOpenDetails === 1 && "1px solid black",
+                borderBottom: isOpenDetails === 1 && "1px solid white",
                 fontWeight: isOpenDetails === 1 && "500",
                 cursor: "pointer",
               }}
             >
-              Details
-            </p>
-            <p
-              className="pb-4 text-md"
+              What we Aim
+            </h5>
+            <h5
+                  className="pb-4 text-md text-white"
               onClick={() => handleOpenDetails(2)}
               style={{
-                borderBottom: isOpenDetails === 2 && "1px solid black",
+                borderBottom: isOpenDetails === 2 && "1px solid white",
                 fontWeight: isOpenDetails === 2 && "500",
                 cursor: "pointer",
               }}
             >
-              Offers
-            </p>
+              What we Offer
+            </h5>
           </div>
-          <hr className="w-full text-gray-500" />
+          <hr className="w-full " />
           {isOpenDetails === 1 && (
-            <p className="text-md text-justify mt-6 w-full lg:mt-8">
-              {filteredData.details}
+                      <p className="text-md text-justify mt-6 w-full text-white lg:mt-8">
+                          Meta-kul is a metaverse based nft project which aims to spread awareness on blockchain WEB 3.0, NFT&apos;s, etc and we want our educational system to be changed.✌🏻 Reforming the vedic education system in Metaverse where every students will be treated equally  and can work on there special talent and polish them.👨🏻‍🏫
             </p>
           )}
           {isOpenDetails === 2 && (
-            <p className="text-md text-justify mt-6 w-full lg:mt-8">
-              {filteredData.offers}
+                      <p className="text-md text-justify mt-6 w-full lg:mt-8 text-white">
+                          Verified METAKUL NFT&apos;s are coming to solana. Our nft&apos;s can be staked to earn $KULL, our utility token.Earned $MCOP could be spent in the upcoming games, breeding of NFT&aposs and exchange plateforms.
             </p>
           )}
-          <div className="w-11/12 flex flex-col justify-center lg:w-full lg:justify-start sm:flex-row">
-            <ButtonCommon
+                  <div className="w-11/12 flex flex-col justify-center lg:w-full lg:justify-start sm:flex-row">
+                      <a className="w-full" href="#roadmap">
+                     
+                      <ButtonCommon 
               isGreen={true}
-              text={`Buy for ${filteredData.price} SOL`}
-            />
-            <ButtonCommon text="Make Offer" />
+              text={`ROADMAP`}
+                          /> </a>
+
+                      <ButtonCommon className="ml-2" text="PRE-SALE SOON" />
           </div>
         </div>
       </div>

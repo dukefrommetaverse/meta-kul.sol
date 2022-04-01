@@ -6,9 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Explore", href: "/explore", margin: "px-4" },
-  { name: "Sell", href: "/sell", margin: "px-4" },
-  { name: "Profile", href: "/profile", margin: "px-4" },
+  
 ];
 
 function classNames(...classes) {
@@ -17,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className={`bg-white ${navStyles.nav}`}>
+    <Disclosure as="nav" className={`bg-black ${navStyles.nav}`}>
       {({ open }) => (
         <>
           <div className=" ">
@@ -39,11 +37,13 @@ export default function Example() {
                     <a>
                       <Image
                         className={`hidden lg:block h-8 w-auto ${navStyles.nav___logo}`}
-                        src="/images/logo.svg"
+                        src="/logo.svg"
                         alt="Workflow"
-                        height="100%"
-                        width="100%"
-                      />
+                        height="25px"
+                        width="25px"
+                                          />
+
+                                          <span className="text-white ml-6">METAKUL</span>
                     </a>
                   </Link>
                 </div>

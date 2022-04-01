@@ -1,9 +1,9 @@
-export const imagesData = [
+﻿export const imagesData = [
   {
     heading: "Image 1",
     id: "1",
     altText: "Image 1",
-    imgSrc: "/images/sampleImageHome.jpg",
+    imgSrc: "/images/avatar1.png",
     artiste: "Martha Jones",
     size: "3000 x 3000",
     dateCreated: "June 5, 2021",
@@ -11,9 +11,9 @@ export const imagesData = [
     availableCards: "20",
     price: "4.5",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
+            "Meta-kul is a metaverse based nft project which aims to spread awareness on blockchain WEB 3.0, NFT's, etc and we want our educational system to be changed.✌🏻 Reforming the vedic education system in Metaverse where every students  will be treated equally  and can work on there special talent and polish them.👨🏻‍🏫",
     offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
+      "Verified METAKUL NFT's are coming to solana. Our nft's can be staked to earn $KULL, our utility token.Earned $MCOP could be spent in the upcoming games, breeding of NFT's and exchange plateforms.",
   },
   {
     heading: "Image 2",
@@ -36,7 +36,7 @@ export const imagesData = [
     heading: "Image 3",
     id: "3",
     altText: "Image 3",
-    imgSrc: "/images/sampleImageHome.jpg",
+    imgSrc: "/images/avatar2.png",
     artiste: "Martha Jones",
     size: "3000 x 3000",
     dateCreated: "June 5, 2021",
@@ -95,101 +95,5 @@ export const imagesData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
     offers:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 7",
-    id: "7",
-    altText: "Image 7",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 8",
-    id: "8",
-    altText: "Image 8",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 9",
-    id: "9",
-    altText: "Image 9",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 10",
-    id: "10",
-    altText: "Image 10",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 11",
-    id: "11",
-    altText: "Image 11",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
-  {
-    heading: "Image 12",
-    id: "12",
-    altText: "Image 12",
-    imgSrc: "/images/sampleImageHome.jpg",
-    artiste: "Martha Jones",
-    size: "3000 x 3000",
-    dateCreated: "June 5, 2021",
-    totalCards: "25",
-    availableCards: "20",
-    price: "4.5",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-    offers:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia quae nam laudantium tempore sint quisquam repellendus ullam vel ipsa cupiditate qui odio sed facere vitae dolorem, aut sapiente error a perferendis aspernatur ab accusamus maiores ut. Reprehenderit, natus veritatis explicabo velit, quo quia alias minus voluptatibus, voluptate voluptatem laboriosam!",
-  },
+  }
 ];

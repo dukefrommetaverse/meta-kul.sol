@@ -5,20 +5,20 @@ import footerStyles from "./Footer.module.css";
 function Footer() {
   return (
     <div className={`${footerStyles.footer}`}>
-      <div className="">
-        &copy; 2021{" "}
-        <span className={`text-black font-bold  ${footerStyles.span}`}>
-          AltDeck
+      <div className="text-white">
+        &copy; 2022{" "}
+        <span className={`text-white font-bold  ${footerStyles.span}`}>
+          Metakul
         </span>
       </div>
       <></>
       <div>
         <ul className={`flex space-x-8  ${footerStyles.footerUl}`}>
           <li>
-            <Link href="#">FAQ</Link>
+            <Link href="#faq">FAQ</Link>
           </li>
-          <li>
-            <Link href="#">Privacy</Link>
+                  <li>
+                      <Link className="text-white" href="#">Privacy</Link>
           </li>
         </ul>
       </div>
