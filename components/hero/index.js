@@ -109,7 +109,7 @@ const Hero = () => {
           )}
           {isOpenDetails === 2 && (
                       <p className="text-md text-justify mt-6 w-full lg:mt-8 text-white">
-                          Verified METAKUL NFT&apos;s are coming to solana. Our nft&apos;s can be staked to earn $KULL, our utility token.Earned $MCOP could be spent in the upcoming games, breeding of NFT&aposs and exchange plateforms.
+                          Verified METAKUL NFT&apos;s are coming to solana. Our nft&apos;s can be staked to earn $KULL, our utility token.Earned $KULL could be spent in the upcoming games, breeding of NFT&aposs and exchange plateforms.
             </p>
           )}
                   <div className="w-11/12 flex flex-col justify-center lg:w-full lg:justify-start sm:flex-row">
