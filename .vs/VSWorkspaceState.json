@@ -5,10 +5,10 @@
     "\\components\\buttonCommon",
     "\\components\\data",
     "\\components\\footer",
+    "\\components\\hero",
     "\\components\\navbar",
     "\\components\\seo",
     "\\pages",
-    "\\public\\images",
     "\\styles"
   ],
   "SelectedNode": "\\components\\hero\\index.js",

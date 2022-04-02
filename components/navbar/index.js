@@ -6,7 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation = [
-  
+    { name: "Discord", href:"https://discord.com/invite/3MwNU73G7M" },
+    { name: "Instagram", href: "https://instagram.com/metakul_" },
+    { name: "Twitter", href: "https://twitter.com/metakul_" },
+
 ];
 
 function classNames(...classes) {
