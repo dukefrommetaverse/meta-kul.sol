@@ -119,8 +119,8 @@ const Hero = () => {
               isGreen={true}
               text={`ROADMAP`}
                           /> </a>
-                      <a className="w-full" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/metakul.nft/">
-                          <ButtonCommon className="ml-2" text="Join Us Now" />
+                      <a className="w-full" rel="noopener noreferrer" target="_blank" href="https://discord.gg/3MwNU73G7M">
+                          <ButtonCommon className="ml-2" text="JOIN THE CLUB" />
                       </a>
           </div>
         </div>
