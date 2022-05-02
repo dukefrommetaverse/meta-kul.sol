@@ -119,7 +119,7 @@ const Hero = () => {
               isGreen={true}
               text={`ROADMAP`}
                           /> </a>
-                      <a className="w-full" rel="noopener noreferrer" target="_blank" href="https://discord.gg/3MwNU73G7M">
+                      <a className="w-full" rel="noopener noreferrer" target="_blank" href="https://discord.com/invite/sRk3tZ9z3A">
                           <ButtonCommon className="ml-2" text="JOIN THE CLUB" />
                       </a>
           </div>
